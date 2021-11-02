@@ -39,19 +39,12 @@ def hydra(usr):
             continue
 
 #Leemos los usuarios (pillamos 4)
-for x in range():
+dataset=[]
+for x in user:
+    dataset.append([0, 4])
    
     if __name__ == "__main__":
         procs = []
-        proc = Process(target=hydra)
+        proc = Process(target=hydra, args=usr)
         procs.append(proc)
         proc.start()
-
-        for i in range(4):
-
-            proc = Process(target=hydra, args=usr)
-            procs.append(proc)
-            proc.start()
-
-
-hydra("root")
